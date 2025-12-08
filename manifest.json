@@ -1,9 +1,9 @@
 {
  "version": 95,
- "update_time": "2025-08-20T23:31:00Z",
- "data_url_netlify": "https://celadon-mousse-11cfd0.netlify.app/link_partial.json", 
+ "update_time": "2025-11-8T23:31:00Z",
+ "data_url_netlify": "https://fabulous-blini-859531.netlify.app/link_partial.json", 
  "data_url_github": "https://a71280046-cloud.github.io/FirstApp/link_partial.json",
  
- "new_links_url_netlify": "https://celadon-mousse-11cfd0.netlify.app/incremental.json", 
+ "new_links_url_netlify": "https://fabulous-blini-859531.netlify.app/incremental.json", 
  "new_links_url_github": "https://a71280046-cloud.github.io/FirstApp/incremental.json" 
 }

@@ -1,7 +1,7 @@
 {
- "version": 95,
- "update_time": "2025-11-8T23:31:00Z",
- "data_url_netlify": "https://fabulous-blini-859531.netlify.app/link_partial.json", 
+ "version": 94,
+ "update_time": "2025-11-11T22:31:00Z",
+ "data_url_netlify": "https://dapper-yeot-52a94f.netlify.app/link_partial.json", 
  "data_url_github": "https://a71280046-cloud.github.io/FirstApp/link_partial.json",
  
  "new_links_url_netlify": "https://fabulous-blini-859531.netlify.app/incremental.json", 

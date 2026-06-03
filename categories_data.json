@@ -1,0 +1,68 @@
+[
+  {
+    "category_id": "nature",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765723241/tre_nyazqb.jpg",
+    "name": "Nature"
+  },
+  {
+    "category_id": "city",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765561933/city_ugnswr.jpg",
+    "name": "City"
+  },
+  {
+    "category_id": "space",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1761076421/3451_qnzfdp.jpg",
+    "name": "Space"
+  },
+   {
+    "category_id": "ai",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765724108/ai_ezxfde.jpg",
+    "name": "AI"
+  },
+  {
+    "category_id": "cars",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765724191/car3_p1idn3.jpg",
+    "name": "Cars"
+  },
+  {
+    "category_id": "portrait",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765562695/partreh_o761tf.jpg",
+    "name": "Portrait"
+  },
+  {
+    "category_id": "animals",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1761082253/31948.jpg_s53rus.jpg",
+    "name": "Animals"
+  },
+  {
+    "category_id": "heroes",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1761075997/IM160434_462_dwshej.jpg",
+    "name": "Heroes"
+  },
+  {
+    "category_id": "girls",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1761073502/2149356033_vrxpeg.webp",
+    "name": "Girls"
+  },
+  {
+    "category_id": "tvseries",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765561018/photo243_dk262h.jpg",
+    "name": "Tvseries"
+  },
+  {
+    "category_id": "art",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765560813/aigirl4_rs89nb.jpg",
+    "name": "Art"
+  },
+  {
+    "category_id": "anime",
+    "image_url": "https://res.cloudinary.com/dsadoxbvf/image/upload/v1765725095/boy1_bubhvq.jpg",
+    "name": "Anime"
+  },
+   {
+    "category_id": "historical",
+    "image_url": "https://i.ibb.co/5hdPBv58/shova.jpg",
+    "name": "Historical"
+  }
+
+]

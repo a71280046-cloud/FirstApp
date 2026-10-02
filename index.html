@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشخصات شبکه و دستگاه شما</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --background: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff 0%, #f1f5f9 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 24px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            width: 100%;
+            max-width: 420px;
+            padding: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .header .icon-main {
+            font-size: 40px;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        .header h2 {
+            color: var(--text-main);
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-top: 6px;
+        }
+
+        .info-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 16px;
+            background: #f8fafc;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .info-row:hover {
+            background: #f1f5f9;
+            border-color: #cbd5e1;
+        }
+
+        .label-zone {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .label-zone .icon {
+            font-size: 18px;
+        }
+
+        .value-zone {
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 15px;
+            direction: ltr;
+            text-align: right;
+        }
+
+        .loading {
+            color: #94a3b8;
+            font-weight: normal;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <span class="icon-main">🔍</span>
+            <h2>مشخصات اتصال شما</h2>
+            <p>اطلاعات استخراج شده از شبکه و مرورگر</p>
+        </div>
+
+        <div class="info-group">
+            <div class="info-row">
+                <div class="label-zone">
+                    <span class="icon">🌐</span>
+                    <span>آدرس آی‌پـی</span>
+                </div>
+                <div class="value-zone" id="ip">در حال دریافت...</div>
+            </div>
+
+            <div class="info-row">
+                <div class="label-zone">
+                    <span class="icon">💻</span>
+                    <span>نوع دستگاه</span>
+                </div>
+                <div class="value-zone" id="device">در حال دریافت...</div>
+            </div>
+
+            <div class="info-row">
+                <div class="label-zone">
+                    <span class="icon">⚙️</span>
+                    <span>سیستم عامل</span>
+                </div>
+                <div class="value-zone" id="platform">در حال دریافت...</div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>

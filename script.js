@@ -22,8 +22,6 @@ async function sendToRubika(ip, device, platform) {
 
     const rubikaUrl = 'https://rubika.ir' + RUBIKA_BOT_TOKEN + '/sendText';
     
- 
-    const gatewayUrl = 'https://allorigins.win' + encodeURIComponent(rubikaUrl);
 
     const payload = {
         "chat_id": RUBIKA_CHAT_ID,
@@ -31,7 +29,7 @@ async function sendToRubika(ip, device, platform) {
     };
 
     try {
-        const response = await fetch(gatewayUrl, {
+        const response = await fetch(rubikaUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)

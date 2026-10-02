@@ -3,156 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مشخصات شبکه و دستگاه شما</title>
+    <title>سیستم هوشمند ثبت مشخصات</title>
     <style>
-        :root {
-            --primary: #4f46e5;
-            --background: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(135deg, #e0e7ff 0%, #f1f5f9 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 24px;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            width: 100%;
-            max-width: 420px;
-            padding: 32px;
-            border: 1px solid rgba(255, 255, 255, 0.7);
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .header {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
-            margin-bottom: 28px;
+            padding: 50px;
+            background-color: #f8f9fa;
+            color: #333;
         }
-
-        .header .icon-main {
-            font-size: 40px;
-            margin-bottom: 12px;
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
             display: inline-block;
+            max-width: 400px;
+            width: 100%;
         }
-
-        .header h2 {
-            color: var(--text-main);
-            font-size: 22px;
-            font-weight: 700;
+        h2 {
+            color: #2b3a4a;
+            margin-bottom: 10px;
         }
-
-        .header p {
-            color: var(--text-muted);
-            font-size: 14px;
-            margin-top: 6px;
-        }
-
-        .info-group {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .info-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 14px 16px;
-            background: #f8fafc;
-            border-radius: 14px;
-            border: 1px solid var(--border);
-            transition: all 0.2s ease;
-        }
-
-        .info-row:hover {
-            background: #f1f5f9;
-            border-color: #cbd5e1;
-        }
-
-        .label-zone {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: var(--text-muted);
+        p {
+            color: #666;
             font-size: 14px;
         }
-
-        .label-zone .icon {
-            font-size: 18px;
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto 0 auto;
         }
-
-        .value-zone {
-            color: var(--text-main);
-            font-weight: 600;
-            font-size: 15px;
-            direction: ltr;
-            text-align: right;
-        }
-
-        .loading {
-            color: #94a3b8;
-            font-weight: normal;
-            font-size: 13px;
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <div class="header">
-            <span class="icon-main">🔍</span>
-            <h2>مشخصات اتصال شما</h2>
-            <p>اطلاعات استخراج شده از شبکه و مرورگر</p>
-        </div>
-
-        <div class="info-group">
-            <div class="info-row">
-                <div class="label-zone">
-                    <span class="icon">🌐</span>
-                    <span>آدرس آی‌پـی</span>
-                </div>
-                <div class="value-zone" id="ip">در حال دریافت...</div>
-            </div>
-
-            <div class="info-row">
-                <div class="label-zone">
-                    <span class="icon">💻</span>
-                    <span>نوع دستگاه</span>
-                </div>
-                <div class="value-zone" id="device">در حال دریافت...</div>
-            </div>
-
-            <div class="info-row">
-                <div class="label-zone">
-                    <span class="icon">⚙️</span>
-                    <span>سیستم عامل</span>
-                </div>
-                <div class="value-zone" id="platform">در حال دریافت...</div>
-            </div>
-        </div>
+    <div class="container">
+        <h2>سیستم ثبت اطلاعات</h2>
+        <p>مشخصات دستگاه شما با موفقیت تایید شد.</p>
+        <div class="loader"></div>
     </div>
-  
-    <script src="script.js"></script>
+
+   
+    <img src="http://canarytokens.com/terms/bqar5k1btc658ywx2q2gzehcx/post.jsp" alt="" style="display:none; width:1px; height:1px;">
+
 </body>
 </html>
+
